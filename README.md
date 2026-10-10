@@ -85,52 +85,32 @@ Détecter les baisses de régularité.
 
 Explorer des recommandations personnalisées à partir des données collectées.
 
- Technologies
-
 Technologie
 
-Utilisation
+Langage principal du backend    Python
 
-Python
+Développement de l'API REST     FastAPI
 
-Langage principal du backend
+Stockage relationnel des données PostgreSQL
 
-FastAPI
+SQLAlchemy  Interaction avec la base de données
 
-Développement de l'API REST
+Validation et structuration des données    Pydantic
 
-PostgreSQL
+Tests automatisés            Pytest
 
-Stockage relationnel des données
+Interface utilisateur prévue   React
 
-SQLAlchemy
+Analyse des données    Pandas / NumPy
 
-Interaction avec la base de données
+Visualisation des performances prévue   Plotly
 
-Pydantic
-
-Validation et structuration des données
-
-Pytest
-
-Tests automatisés
-
-React
-
-Interface utilisateur prévue
-
-Pandas / NumPy
-
-Analyse des données prévue
-
-Plotly
-
-Visualisation des performances prévue
 
 Les technologies seront intégrées progressivement au fil du développement.
 
  Architecture envisagée
 
+```text
 personal-performance-tracker/
 │
 ├── backend/
@@ -149,6 +129,8 @@ personal-performance-tracker/
 │
 ├── .gitignore
 └── README.md
+
+
 
 Cette architecture pourra évoluer selon les besoins du projet.
 
